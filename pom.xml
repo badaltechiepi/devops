@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
+    <!--this is the version of maven schema we are using-->
+    <modelVersion>4.0.0</modelVersion> 
+<!-- will generally represent the organization or the porject which we are working-->
     <groupId>com.lt</groupId>
+    <!--:is the information about the project which are tyring to write-->
     <artifactId>learningmaven</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <!--: we will have major,medium and minor and qualifier. When we see the snapshot then the project it is in deveoplement. If we remove snapshot then the project is in release version-->
+    <version>1.0.0-SNAPSHOT</version> 
+    <!--: output format of the project-->
     <packaging>jar</packaging>
-</project>
+ </project> 
